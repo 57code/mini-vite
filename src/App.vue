@@ -1,8 +1,9 @@
 <template>
-  <img alt="Vue logo" src="@/assets/logo.png" />
-  <img alt="Vue logo" :src="logo" />
-  <div :class="classes.logo"></div>
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <img width="200" src="https://vitejs.dev/logo.svg" />
+  <h1>Vite原理剖析和手写</h1>
+  <!-- <img alt="Vue logo" :src="logo" />
+  <div :class="classes.logo"></div> -->
+  <!-- <HelloWorld msg="Hello Vue 3 + Vite" />
   <input type="text" placeholder="请输入用户名" />
 
   <label>{{ t("language") }}</label>
@@ -10,7 +11,7 @@
     <option value="en">en</option>
     <option value="zh">zh</option>
   </select>
-  <p>{{ t("hello") }}</p>
+  <p>{{ t("hello") }}</p> -->
 </template>
 
 <script setup>

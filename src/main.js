@@ -1,3 +1,4 @@
+// 裸模块
 import { createApp } from "vue";
 import App from "./App.vue";
 
